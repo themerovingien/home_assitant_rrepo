@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: My home assistant add-on repository
+name: Manu home assistant add-on repository
 url: 'https://github.com/themerovingien/home_assitant_rrepo'
 maintainer: Emmanuel Duplat <homeassitantrepo@anatroc.net>

@@ -7,7 +7,9 @@ url: https://github.com/fboulay/ha-addons-repository/tree/main/ha-protonmail-bri
 boot: auto
 startup: system
 arch: 
+    - armhf
     - armv7
+    - aarch64
     - amd64
 image: fboulay/ha-protonmail-bridge-{arch}
 auth_api: true

@@ -3,7 +3,7 @@ name: ProtonMail bridge
 version: 1.4.0
 slug: pmb
 description: Send emails using your ProtonMail account
-url: https://github.com/fboulay/ha-addons-repository/tree/main/ha-protonmail-bridge
+url: https://github.com/themerovingien/home_assitant_rrepo/tree/main/ha-protonmail-bridge
 boot: auto
 startup: system
 arch: 
@@ -11,7 +11,7 @@ arch:
     - armv7
     - aarch64
     - amd64
-image: fboulay/ha-protonmail-bridge-{arch}
+image: themerovingien/ha-protonmail-bridge-{arch}
 auth_api: true
 ports:
     25/tcp: 25

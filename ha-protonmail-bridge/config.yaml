@@ -1,16 +1,17 @@
 ---
 name: ProtonMail bridge
 version: 1.4.1
-slug: pmb
+slug: ha-proton-mail-bridge
 description: Send emails using your ProtonMail account
 url: https://github.com/themerovingien/home_assitant_rrepo/tree/main/ha-protonmail-bridge
 boot: auto
 startup: system
 arch: 
-    - armhf
-    - armv7
-    - aarch64
-    - amd64
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
 image: themerovingien/ha-protonmail-bridge-{arch}
 auth_api: true
 ports:

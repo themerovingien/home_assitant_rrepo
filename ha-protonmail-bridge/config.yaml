@@ -1,11 +1,19 @@
 ---
 name: ProtonMail bridge
-version: 1.4.1
+version: dev
 slug: ha-proton-mail-bridge
 description: Send emails using your ProtonMail account
 url: https://github.com/themerovingien/home_assitant_rrepo/tree/main/ha-protonmail-bridge
 boot: auto
 startup: system
+hassio_api: true
+host_network: true
+host_dbus: true
+privileged:
+  - NET_ADMIN
+  - NET_RAW
+devices:
+  - /dev/net/tun
 arch: 
   - aarch64
   - amd64
@@ -28,3 +36,4 @@ schema:
     username: str
     password: password
     two_factor_code: str?
+    taildrop: bool?

@@ -1,6 +1,6 @@
 ---
 name: ProtonMail bridge
-version: 1.4.0
+version: 1.4.1
 slug: pmb
 description: Send emails using your ProtonMail account
 url: https://github.com/themerovingien/home_assitant_rrepo/tree/main/ha-protonmail-bridge
@@ -18,7 +18,7 @@ ports:
     143/tcp: 143
 ports_description:
     25/tcp: SMTP port. 25 is the default for SMTP servers.
-    143/tcp: IMAP port. 143 is the default for SMTP servers. 
+    143/tcp: IMAP port. 143 is the default for IMAP servers. 
 options: 
     username: null
     password: null
